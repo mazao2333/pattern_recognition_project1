@@ -10,7 +10,7 @@ alpha = 0.0001;
 iteration = 10000;
 
 % get parameter
-theta = grad_desc(tr_d,tr_l,alpha,iteration)
+theta = grad_desc(tr_d,tr_l,alpha,iteration);
 
 % show result
 he = 1./(1+exp(-te_d*theta));
